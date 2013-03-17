@@ -1,0 +1,7 @@
+Serial command:
+---------------
+
+Reads from the serial port a secuence of characters followed by a newline and 
+parses them by space separation. It's intended for sending a command followed to
+arguments.
+
