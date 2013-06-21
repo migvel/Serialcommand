@@ -51,7 +51,7 @@ void SerialCommand::readcommand(){
     }
     else{
       strcpy(cmdred,cmdbuffer);
-      memset( &cmdbuffer, 0, bufmax );
+      memset( &cmdbuffer, 0, 30);
       cmdindex = 0;
       cmdready = 1;
       return;
